@@ -1,0 +1,6 @@
+framework module QVReplayKit {
+  umbrella header "QVReplayKit.h"
+  export *
+
+  module * { export * }
+}

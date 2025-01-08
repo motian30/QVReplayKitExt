@@ -1,0 +1,607 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QVReplayKit",
+    "printedName": "QVReplayKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ReplayKit",
+        "printedName": "ReplayKit",
+        "declKind": "Import",
+        "moduleName": "QVReplayKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "QVReplayKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BroadcastEndError",
+        "printedName": "BroadcastEndError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "quit",
+            "printedName": "quit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QVReplayKit.BroadcastEndError.Type) -> QVReplayKit.BroadcastEndError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BroadcastEndError",
+                    "printedName": "QVReplayKit.BroadcastEndError",
+                    "usr": "s:11QVReplayKit17BroadcastEndErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QVReplayKit.BroadcastEndError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BroadcastEndError",
+                        "printedName": "QVReplayKit.BroadcastEndError",
+                        "usr": "s:11QVReplayKit17BroadcastEndErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11QVReplayKit17BroadcastEndErrorO4quityA2CmF",
+            "mangledName": "$s11QVReplayKit17BroadcastEndErrorO4quityA2CmF",
+            "moduleName": "QVReplayKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BroadcastEndError",
+                "printedName": "QVReplayKit.BroadcastEndError",
+                "usr": "s:11QVReplayKit17BroadcastEndErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BroadcastEndError",
+                "printedName": "QVReplayKit.BroadcastEndError",
+                "usr": "s:11QVReplayKit17BroadcastEndErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit17BroadcastEndErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11QVReplayKit17BroadcastEndErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "QVReplayKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11QVReplayKit17BroadcastEndErrorO9hashValueSivp",
+            "mangledName": "$s11QVReplayKit17BroadcastEndErrorO9hashValueSivp",
+            "moduleName": "QVReplayKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11QVReplayKit17BroadcastEndErrorO9hashValueSivg",
+                "mangledName": "$s11QVReplayKit17BroadcastEndErrorO9hashValueSivg",
+                "moduleName": "QVReplayKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit17BroadcastEndErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11QVReplayKit17BroadcastEndErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "QVReplayKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11QVReplayKit17BroadcastEndErrorO",
+        "mangledName": "$s11QVReplayKit17BroadcastEndErrorO",
+        "moduleName": "QVReplayKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplaykitExtDelegate",
+        "printedName": "ReplaykitExtDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "broadcastEnd",
+            "printedName": "broadcastEnd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit20ReplaykitExtDelegateP12broadcastEndyys5Error_pF",
+            "mangledName": "$s11QVReplayKit20ReplaykitExtDelegateP12broadcastEndyys5Error_pF",
+            "moduleName": "QVReplayKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : QVReplayKit.ReplaykitExtDelegate>",
+            "sugared_genericSig": "<Self where Self : QVReplayKit.ReplaykitExtDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11QVReplayKit20ReplaykitExtDelegateP",
+        "mangledName": "$s11QVReplayKit20ReplaykitExtDelegateP",
+        "moduleName": "QVReplayKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReplaykitExt",
+        "printedName": "ReplaykitExt",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReplaykitExt",
+                "printedName": "QVReplayKit.ReplaykitExt",
+                "usr": "s:11QVReplayKit12ReplaykitExtC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11QVReplayKit12ReplaykitExtC8instanceACvpZ",
+            "mangledName": "$s11QVReplayKit12ReplaykitExtC8instanceACvpZ",
+            "moduleName": "QVReplayKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReplaykitExt",
+                    "printedName": "QVReplayKit.ReplaykitExt",
+                    "usr": "s:11QVReplayKit12ReplaykitExtC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11QVReplayKit12ReplaykitExtC8instanceACvgZ",
+                "mangledName": "$s11QVReplayKit12ReplaykitExtC8instanceACvgZ",
+                "moduleName": "QVReplayKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any QVReplayKit.ReplaykitExtDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "QVReplayKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QVReplayKit.ReplaykitExtDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReplaykitExtDelegate",
+                        "printedName": "any QVReplayKit.ReplaykitExtDelegate",
+                        "usr": "s:11QVReplayKit20ReplaykitExtDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "QVReplayKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QVReplayKit.ReplaykitExtDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ReplaykitExtDelegate",
+                        "printedName": "any QVReplayKit.ReplaykitExtDelegate",
+                        "usr": "s:11QVReplayKit20ReplaykitExtDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "QVReplayKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s11QVReplayKit12ReplaykitExtC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "QVReplayKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReplaykitExtDelegate",
+                "printedName": "any QVReplayKit.ReplaykitExtDelegate",
+                "usr": "s:11QVReplayKit20ReplaykitExtDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit12ReplaykitExtC5setupyySS_AA0cD8Delegate_ptF",
+            "mangledName": "$s11QVReplayKit12ReplaykitExtC5setupyySS_AA0cD8Delegate_ptF",
+            "moduleName": "QVReplayKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "broadcastFinished",
+            "printedName": "broadcastFinished()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit12ReplaykitExtC17broadcastFinishedyyF",
+            "mangledName": "$s11QVReplayKit12ReplaykitExtC17broadcastFinishedyyF",
+            "moduleName": "QVReplayKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processSampleBuffer",
+            "printedName": "processSampleBuffer(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RPSampleBufferType",
+                "printedName": "ReplayKit.RPSampleBufferType",
+                "usr": "c:@E@RPSampleBufferType"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11QVReplayKit12ReplaykitExtC19processSampleBuffer_4withySo08CMSampleG3Refa_So08RPSampleG4TypeVtF",
+            "mangledName": "$s11QVReplayKit12ReplaykitExtC19processSampleBuffer_4withySo08CMSampleG3Refa_So08RPSampleG4TypeVtF",
+            "moduleName": "QVReplayKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11QVReplayKit12ReplaykitExtC",
+        "mangledName": "$s11QVReplayKit12ReplaykitExtC",
+        "moduleName": "QVReplayKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 13,
+      "value": "\"reply.start\""
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 12,
+      "value": "\"reply.stop\""
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 11,
+      "value": "\"reply.end\""
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 15,
+      "value": "\"reply.receive\""
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 691,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/snqu-0523\/Desktop\/QVReplayKit\/QVReplayKit\/ReplayKitExt.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4079,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name QVReplayKit
+import Combine
+@_exported import QVReplayKit
+import ReplayKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum BroadcastEndError : Swift.Error {
+  case quit
+  public static func == (a: QVReplayKit.BroadcastEndError, b: QVReplayKit.BroadcastEndError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol ReplaykitExtDelegate : AnyObject {
+  func broadcastEnd(_ error: any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class ReplaykitExt {
+  public static let instance: QVReplayKit.ReplaykitExt
+  weak public var delegate: (any QVReplayKit.ReplaykitExtDelegate)?
+  @objc deinit
+}
+extension QVReplayKit.ReplaykitExt {
+  public func setup(_ groupId: Swift.String, _ delegate: any QVReplayKit.ReplaykitExtDelegate)
+  public func broadcastFinished()
+  public func processSampleBuffer(_ sampleBuffer: CoreMedia.CMSampleBuffer, with sampleBufferType: ReplayKit.RPSampleBufferType)
+}
+extension QVReplayKit.BroadcastEndError : Swift.Equatable {}
+extension QVReplayKit.BroadcastEndError : Swift.Hashable {}
